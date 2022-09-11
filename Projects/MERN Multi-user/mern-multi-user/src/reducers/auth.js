@@ -8,7 +8,7 @@ import {
     LOGOUT,
     SET_MESSAGE,
 
-} from "./types"
+} from "../actions/types"
 
 //Retrieve user token from localStorage
 const user = JSON.parse(localStorage.getItem("user"))
