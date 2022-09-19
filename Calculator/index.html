@@ -16,7 +16,7 @@
             <td>
                 <input type="button"
                 value="c"
-                onclick="clear()"/>
+                onclick="clearInput()"/>
             </td>
             <td colspan="3">
                 <input type="text" id="textval"/>
@@ -26,7 +26,9 @@
         <!-- First row of numbers -->
         <tr>
             <td>
-                <input type="button" value="+" onclick="display('+')" />
+                <input type="button" value="+" 
+                onclick="display('+')" 
+                />
             </td>
             <td>
                 <input type="button" value="1" onclick="display('1')" />
@@ -83,7 +85,7 @@
                 <input type="button" value="0" onclick="display('0')" />
             </td>
             <td>
-                <input type="button" value="=" onclick="display('=')" />
+                <input type="button" value="=" onclick="calculate()" />
             </td>
         </tr>
     </table>
