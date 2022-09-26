@@ -13,9 +13,6 @@ import React, {useState, useEffect, useCallback } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { Routes, Route, Link, useLocation } from "react-router-dom"
 
-
-import logo from './logo.svg';
-
 //Utilize bootstrap library for quick views
 import "bootstrap/dist/css/bootstrap.min.css"
 
