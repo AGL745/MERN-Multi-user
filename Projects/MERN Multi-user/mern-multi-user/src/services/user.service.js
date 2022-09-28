@@ -2,8 +2,8 @@
 //This service allows accessing data 
 
 import axios from "axios"
-//Utilized authheader function to authorization to requests 
 
+//Utilized authheader function to authorization to requests 
 import authHeader from "./auth-header"
 
 const API_URL = "http://localhost:8080/api/test/"
