@@ -1,0 +1,1 @@
+//This reducer updates message state when message action is dispatched from anywhere in the application

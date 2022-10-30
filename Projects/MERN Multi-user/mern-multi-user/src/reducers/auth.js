@@ -1,0 +1,1 @@
+//This reducer updates the status of the user and if they are logged in
