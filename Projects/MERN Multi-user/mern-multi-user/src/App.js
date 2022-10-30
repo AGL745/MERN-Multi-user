@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
+
+import "bootstrap/dist/css/bootstrap.min.css"
+
+// function App() {
+
+// }
+
+//Utilized an arrow function 
+const App = () => {
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn and become an amazing software engineer
         </a>
       </header>
     </div>
