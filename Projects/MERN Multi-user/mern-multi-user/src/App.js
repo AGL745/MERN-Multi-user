@@ -1,12 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-
+//Utilize bootstrap library for quick views
 import "bootstrap/dist/css/bootstrap.min.css"
 
-// function App() {
-
-// }
 
 //Utilized an arrow function 
 const App = () => {
